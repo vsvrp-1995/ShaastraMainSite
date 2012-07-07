@@ -10,6 +10,7 @@ body
 	width:100%;
 	min-width:1200px;
 	max-width:1500px;
+	background-image:url(images/texture.jpg);
 }
 #header
 {
@@ -21,7 +22,6 @@ body
 {
 	width:100%;
 	height:380px;
-	background-image:url(images/image7.jpg);
 	position:relative;
 	-moz-box-shadow: inset 0 0 5px 5px #080808;
 	-webkit-box-shadow: inset 0 0 5px 5px#080808;
@@ -91,7 +91,7 @@ body
 	width:65px;
 	height:300px;
 	position:absolute;
-	top:110px;
+	top:50px;
 	right:0px;
 	background-color:transparent;
 }
@@ -127,7 +127,7 @@ body
 	border-style:solid;
 	width:129px;
 	height:129px;
-	margin: 15px 5px 20px 5px;
+	margin: 15px 6px 20px 6px;
 	float:left;
 	border-width:2px;
 	border-color:#222222;
@@ -136,15 +136,15 @@ body
 }
 .tab:hover
 {
-	width:139px;
-	height:139px;
-	margin: 10px auto 15px auto;
+	width:141px;
+	height:141px;
+	margin: 9px auto 14px auto;
 	background-size: 139px 139px;
 	border-color:#6e6e6e;
 }
 #tabbox
 {
-	width:1300px;
+	width:1320px;
 	height:135px;
 	margin: auto auto auto auto;
 	position:relative;
