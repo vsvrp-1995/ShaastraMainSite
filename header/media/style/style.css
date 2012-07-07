@@ -58,6 +58,7 @@ body{
 #icons a:hover{
 	opacity:1.0; 
 	filter:alpha(opacity=1000);
+	cursor:pointer;
 	} 
 
 #events{
