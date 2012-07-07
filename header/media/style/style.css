@@ -35,7 +35,7 @@ body{
 
 #topright{
 	height:54px;
-	width:735px;
+	width:720px;
 }
 
 #icons{
@@ -66,7 +66,7 @@ body{
 	} 
 
 .head_text{
-	font-family:"century gothic";
+	font-family:serif;
 	line-height:20px;
 	letter-spacing:1px;
 } 
