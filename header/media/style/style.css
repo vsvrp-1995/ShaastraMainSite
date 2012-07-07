@@ -4,13 +4,13 @@
 body{
 	min-width:1200px;
 	font-family:"Century Gothic";
-	padding-right:1.4%;
 }
 	
 #header{
-	background:url(../images/header-bg.png);
+	background:url(../images/header-bg.jpg);
 	background-repeat:repeat;
 	width:100%;
+	margin-left:-9px;
 	height:66px;
 	padding-left:10px;
 	padding-top:10px;
