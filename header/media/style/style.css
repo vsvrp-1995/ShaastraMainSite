@@ -1,72 +1,112 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	min-width:1200px;
+	font-family:"Century Gothic";
+	padding-right:1.4%;
+}
+	
 #header{
 	background:url(../images/header-bg.png);
 	background-repeat:repeat;
-	width:1300px;
-	height:70px;
-	margin:0px auto;
+	width:100%;
+	height:66px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:5px;
 }
 
 #logo{
+	background:url(../images/shaastralogo.png);
 	width:280px;
 	height:50px;
 	float:left;
-	margin-left:15px;
-	margin-top:8px;
+	
 }
 
 #topright{
 	float:right;
-	margin-right:10px;
 	height:54px;
-	width:750px;
+	width:655px;
 }
 
-#links{
+#icons{
 	float:left;
-    width:500px;
+   width:500px;
 	height:54px;
-	font-family:"Century Gothic";
 	font-weight:bold;
 	color:#fff;
-	font-size:12.26px;
+	font-size:13px;
 	text-align:center; 	
 }
 
-#links table{
-	width:500px;
+#icons a{
+	display:block;
+	height:66px;
+	line-height:66px;
+	min-height:45px;
+	float: left;
+	margin-left:32px;
+	vertical-align:bottom;
+	opacity:0.7; 
+	filter:alpha(opacity=700);
 }
 
-#links td{
-	height:54px;
-	width:50px;
-	margin-right:25px;
-}
-
-#links img{
-	opacity:0.6;
-	filter:alpha(opacity=600);
-}
-
-#links img:hover{
-	opacity:1.0;
+#icons a:hover{
+	opacity:1.0; 
 	filter:alpha(opacity=1000);
-}
-	
+	} 
 
-#links td:hover{
-	font-size:14px;
-	}
+#events{
+	background:url(../images/events.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+} 
+
+#home{
+	background:url(../images/home.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+} 
+
+#hospitality{
+	background:url(../images/hospitality.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+} 
+
+#spons{
+	background:url(../images/login.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+#login{
+	background:url(../images/login.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+}  
 
 #twologos{
-	width:120px;
+	width:105px;
 	height:52px;
 	float:right;
-	margin-top:10px;
+	padding-left:2px;
 }
 
-#twologos img{
-	margin-right:10px;
+#tuvnord{
+	background: url(../images/tuvnord.png);
+	background-repeat:no-repeat;
+	width:45px;
+	height:46px;
+	float:left;
+}
+
+#iitmlogo{
+	background: url(../images/iitmlogo.png);
+	background-repeat:no-repeat;
+	width:44px;
+	height:52px;
+	float:right;
 }
