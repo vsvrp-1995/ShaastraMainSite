@@ -5,17 +5,19 @@ body{
 	min-width:1200px;
 	max-width:1500px;
 	font-family:"Century Gothic";
+	margin: 0;
 }
 	
 #header{
 	background:url(../images/header-bg.jpg);
 	background-repeat:repeat;
-	width:100%;
-	margin-left:-9px;
+	width:99%;
+	margin-right: 0.25%;
+	margin-left: 0.15%;
 	height:66px;
-	padding-left:10px;
+	padding-left:5px;
 	padding-top:10px;
-	padding-right:25px;
+	padding-right:3px;
 }
 .floatleft{
 	float:left;
