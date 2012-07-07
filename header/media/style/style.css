@@ -16,23 +16,26 @@ body{
 	padding-top:10px;
 	padding-right:5px;
 }
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
 
 #logo{
 	background:url(../images/shaastralogo.png);
 	width:280px;
 	height:50px;
-	float:left;
-	
 }
 
 #topright{
-	float:right;
 	height:54px;
 	width:655px;
 }
 
 #icons{
-	float:left;
    width:500px;
 	height:54px;
 	font-weight:bold;
@@ -46,7 +49,6 @@ body{
 	height:66px;
 	line-height:66px;
 	min-height:45px;
-	float: left;
 	margin-left:32px;
 	vertical-align:bottom;
 	opacity:0.7; 
@@ -91,7 +93,6 @@ body{
 #twologos{
 	width:105px;
 	height:52px;
-	float:right;
 	padding-left:2px;
 }
 
@@ -100,7 +101,6 @@ body{
 	background-repeat:no-repeat;
 	width:45px;
 	height:46px;
-	float:left;
 }
 
 #iitmlogo{
@@ -108,5 +108,4 @@ body{
 	background-repeat:no-repeat;
 	width:44px;
 	height:52px;
-	float:right;
 }
