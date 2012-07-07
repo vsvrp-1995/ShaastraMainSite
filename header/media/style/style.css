@@ -35,7 +35,7 @@ body{
 
 #topright{
 	height:54px;
-	width:750px;
+	width:735px;
 }
 
 #icons{
@@ -104,7 +104,7 @@ body{
 #twologos{
 	width:105px;
 	height:52px;
-	padding-left:2px;
+	margin-right:10px;
 }
 
 #tuvnord{
