@@ -278,11 +278,11 @@ body
 }
 .tab:hover
 {
-	width:141px;
-	height:141px;
+	width:130px;
+	height:130px;
 	margin: 9px auto 14px auto;
-	background-size: 139px 139px;
 	border-color:#6e6e6e;
+	border-width:4px;
 }
 #tabbox
 {
