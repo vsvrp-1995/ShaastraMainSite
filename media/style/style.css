@@ -5,6 +5,7 @@ body
 	margin:0;
 	background:#000;
 	background-image: -webkit-linear-gradient(left, #434343, #313131);
+	background-image: -moz-linear-gradient(left, #434343, #313131);
 }
 
 #container
@@ -14,9 +15,11 @@ body
 	min-width:1200px;
 	max-width:1500px;
 	background:url(../images/texture.jpg);
+	background: rgba(0, 0, 0, 0.5);
 }
 #header{
 	background:url(../images/texture.jpg);
+	background: rgba(0, 0, 0, 0.5);
 	background-repeat:repeat;
 	width:99%;
 	margin-right: 0.25%;
@@ -141,52 +144,18 @@ body
 {
 	width:100%;
 	height:170px;
-	background-color:#080808;
-	overflow-x:auto;
+	background-color:rgba(8,8,8,0.5);
+	overflow-y:hidden;
 }
 .menu
 {
 	position:absolute;
 	bottom:0px;
 	width:250px;
-	background-color: rgba(08, 08, 08, 0.6);
-}
-#menu1
-{
-	left:30%;
-}
-#menu2
-{
-	left:55%;
-}
-#menu3
-{
-	left:65%;
-}
-#menu4
-{
-	left:40%;
-}
-#menu5
-{
-	left:10%;
-}
-#menu6
-{
+	background-color: rgba(8, 8, 8, 0.6);
 	left:20%;
 }
-#menu7
-{
-	left:40%;
-}
-#menu8
-{
-	left:30%;
-}
-#menu9
-{
-	left:60%;
-}
+
 .menutopcolour
 {
 	background-color:#1197ff;
@@ -269,20 +238,19 @@ body
 }
 .tab
 {
-	border: 2px solid #222222;
+	border: 1px solid #222222;
 	width:129px;
 	height:129px;
-	margin: 15px 6px 20px 6px;
+	margin: 15px 7px 20px;
 	float:left;
 	position:relative;
+	opacity:0.7;
+	filter:alpha(opacity=700);
 }
 .tab:hover
 {
-	width:130px;
-	height:130px;
-	margin: 9px auto 14px auto;
-		border-color:#6e6e6e;
-    border-width:4px;
+	opacity:1.0;
+	filter:alpha(opacity=1000);
 }
 #tabbox
 {
