@@ -230,11 +230,14 @@ body
 	width:64px;
 	height:64px;
 	opacity:0.6;
+	filter:alpha(oapcity=600);
 	margin:10px auto 10px auto;
 }
 .socialapp:hover
 {
 	opacity:1.0;
+	filter:alpha(oapcity=1000);
+	cursor: pointer;
 }
 .tab
 {
@@ -251,6 +254,7 @@ body
 {
 	opacity:1.0;
 	filter:alpha(opacity=1000);
+	cursor:pointer;
 }
 #tabbox
 {
