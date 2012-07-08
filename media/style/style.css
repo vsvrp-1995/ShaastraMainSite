@@ -4,6 +4,7 @@ body
 {
 	margin:0;
 }
+
 #container
 {
 	margin:auto;
@@ -141,7 +142,7 @@ body
 	background-color:#080808;
 	overflow-x:auto;
 }
-#menu
+.menu
 {
 	position:absolute;
 	left:15%;
@@ -149,18 +150,18 @@ body
 	width:250px;
 	background-color: rgba(08, 08, 08, 0.6);
 }
-#menutopcolour
+.menutopcolour
 {
 	background-color:#1197ff;
 	width:250px;
 	height:20px;
 }
-#menulist
+.menulist
 {
 	padding-left:10px;
 	padding-right:10px;
 }
-#menulist ul
+.menulist ul
 {
 	width:230px;
 	margin:5px auto auto auto;
@@ -169,13 +170,13 @@ body
 	font-size:16pt;
 	font-family:Arial, Helvetica, sans-serif;
 }
-#menuhead
+.menuhead
 {
 	
 	border-bottom-style:dotted;
 	border-color:#FFF;
 }
-#menulist li
+.menulist li
 {
 	list-style:none;
 	padding:0;
@@ -186,7 +187,7 @@ body
 	border-bottom-style:ridge;
 	border-bottom-width:thin;
 }
-#menulist li.last
+.menulist li.last
 {
 	border-style:none;
 	border:none;
@@ -231,14 +232,11 @@ body
 }
 .tab
 {
-	border-style:solid;
+	border: 2px solid #222222;
 	width:129px;
 	height:129px;
 	margin: 15px 6px 20px 6px;
 	float:left;
-	border-width:2px;
-	border-color:#222222;
-	background-size:100% 100%;
 	position:relative;
 }
 .tab:hover
@@ -246,8 +244,8 @@ body
 	width:130px;
 	height:130px;
 	margin: 9px auto 14px auto;
-	border-color:#6e6e6e;
-	border-width:4px;
+		border-color:#6e6e6e;
+    border-width:4px;
 }
 #tabbox
 {
@@ -258,39 +256,39 @@ body
 }
 #tab1
 {
-	background:url(../images/footer_sprite.jpg) 0 0;
+background:url(../images/footer_sprite.jpg) 0 0;
 }
 #tab2
 {
-	background:url(../images/footer_sprite.jpg) 0 -129px;
+background:url(../images/footer_sprite.jpg) 0 -129px;
 }
 #tab3
 {
-	background:url(../images/footer_sprite.jpg) 0 -258px;
+background:url(../images/footer_sprite.jpg) 0 -258px;
 }
 #tab4
 {
-	background:url(../images/footer_sprite.jpg) 0 -387px;
+background:url(../images/footer_sprite.jpg) 0 -387px;
 }
 #tab5
 {
-	background:url(../images/footer_sprite.jpg) 0 -516px;
+background:url(../images/footer_sprite.jpg) 0 -516px;
 }
 #tab6
 {
-	background:url(../images/footer_sprite.jpg) 0 516px;
+background:url(../images/footer_sprite.jpg) 0 516px;
 }
 #tab7
 {
-	background:url(../images/footer_sprite.jpg) 0 387px;
+background:url(../images/footer_sprite.jpg) 0 387px;
 }
 #tab8
 {
-	background:url(../images/footer_sprite.jpg) 0 258px;
+background:url(../images/footer_sprite.jpg) 0 258px;
 }
 #tab9
 {
-	background:url(../images/footer_sprite.jpg) 0 129px;
+background:url(../images/footer_sprite.jpg) 0 129px;
 }
 .tabname
 {
