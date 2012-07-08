@@ -141,13 +141,21 @@ body
 	background-color:#080808;
 	overflow-x:auto;
 }
+<<<<<<< HEAD
 .menu
 {
 	position:absolute;
+=======
+#menu
+{
+	position:absolute;
+	left:15%;
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 	bottom:0px;
 	width:250px;
 	background-color: rgba(08, 08, 08, 0.6);
 }
+<<<<<<< HEAD
 #menu1
 {
 	left:30%;
@@ -185,17 +193,28 @@ body
 	left:60%;
 }
 .menutopcolour
+=======
+#menutopcolour
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 {
 	background-color:#1197ff;
 	width:250px;
 	height:20px;
 }
+<<<<<<< HEAD
 .menulist
+=======
+#menulist
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 {
 	padding-left:10px;
 	padding-right:10px;
 }
+<<<<<<< HEAD
 .menulist ul
+=======
+#menulist ul
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 {
 	width:230px;
 	margin:5px auto auto auto;
@@ -204,13 +223,21 @@ body
 	font-size:16pt;
 	font-family:Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
 .menuhead
+=======
+#menuhead
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 {
 	
 	border-bottom-style:dotted;
 	border-color:#FFF;
 }
+<<<<<<< HEAD
 .menulist li
+=======
+#menulist li
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 {
 	list-style:none;
 	padding:0;
@@ -221,7 +248,11 @@ body
 	border-bottom-style:ridge;
 	border-bottom-width:thin;
 }
+<<<<<<< HEAD
 .menulist li.last
+=======
+#menulist li.last
+>>>>>>> 36309e89ab8895bd869769f3706825b182728eb7
 {
 	border-style:none;
 	border:none;
