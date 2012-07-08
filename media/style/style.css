@@ -200,6 +200,9 @@ body
 	border-bottom-style:none;
 	margin:10px auto 15px auto;
 }
+.menu visual{
+	display: visible;
+}
 #social
 {
 	width:65px;
