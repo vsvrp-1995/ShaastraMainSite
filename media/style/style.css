@@ -10,7 +10,7 @@ body
 	width:100%;
 	min-width:1200px;
 	max-width:1500px;
-	background-image:url(../images/texture.jpg);
+	background:url(../images/texture.jpg);
 }
 #header{
 	background:url(../images/texture.jpg);
@@ -204,19 +204,19 @@ body
 }
 #fb
 {
-	background-image:url(../images/facebook.jpg);
+	background:url(../images/social_sprite.jpg) 0 0;
 }
 #flickr
 {
-	background-image:url(../images/flickr.jpg);
+	background:url(../images/social_sprite.jpg) 0px -64px ;
 }
 #youtube
 {
-	background-image:url(../images/youtube.jpg);
+	background:url(../images/social_sprite.jpg) 0px -192px;
 }
 #twitter
 {
-	background-image:url(../images/twitter.jpg);
+	background:url(../images/social_sprite.jpg) 0px -128px;
 }
 .socialapp
 {
@@ -258,39 +258,39 @@ body
 }
 #tab1
 {
-	background-image:url(../images/tab1.jpg);
+	background:url(../images/footer_sprite.jpg) 0 0;
 }
 #tab2
 {
-	background-image:url(../images/tab2.jpg);
+	background:url(../images/footer_sprite.jpg) 0 -129px;
 }
 #tab3
 {
-	background-image:url(../images/tab3.jpg);
+	background:url(../images/footer_sprite.jpg) 0 -258px;
 }
 #tab4
 {
-	background-image:url(../images/tab4.jpg);
+	background:url(../images/footer_sprite.jpg) 0 -387px;
 }
 #tab5
 {
-	background-image:url(../images/tab5.jpg);
+	background:url(../images/footer_sprite.jpg) 0 -516px;
 }
 #tab6
 {
-	background-image:url(../images/tab6.jpg);
+	background:url(../images/footer_sprite.jpg) 0 516px;
 }
 #tab7
 {
-	background-image:url(../images/tab7.jpg);
+	background:url(../images/footer_sprite.jpg) 0 387px;
 }
 #tab8
 {
-	background-image:url(../images/tab8.jpg);
+	background:url(../images/footer_sprite.jpg) 0 258px;
 }
 #tab9
 {
-	background-image:url(../images/tab9.jpg);
+	background:url(../images/footer_sprite.jpg) 0 129px;
 }
 .tabname
 {
