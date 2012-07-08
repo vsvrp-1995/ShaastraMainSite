@@ -13,7 +13,7 @@ body
 	background-image:url(../images/texture.jpg);
 }
 #header{
-	background:url(../images/header-bg.jpg);
+	background:url(../images/texture.jpg);
 	background-repeat:repeat;
 	width:99%;
 	margin-right: 0.25%;
@@ -139,6 +139,7 @@ body
 	width:100%;
 	height:170px;
 	background-color:#080808;
+	overflow-x:auto;
 }
 #menu
 {
