@@ -4,7 +4,8 @@ body
 {
 	margin:0;
 	background:#000;
-	background-image: -webkit-linear-gradient(top left,top right, #434343, #313131);
+	background-image: -webkit-linear-gradient(left, #434343, #313131);
+	background-image: -webkit-gradient(linear, top left, top right, color-stop(0%, #434343), color-stop(100%, #313131));
 	background-image: -moz-linear-gradient(left, #434343, #313131);
 }
 
