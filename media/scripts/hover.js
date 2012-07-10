@@ -106,7 +106,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu1").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem1==0){$("#menu1").css({visibility:"hidden"});
+					if(mem1==0){$("#menu1").animate({bottom:'-320px'});
+						$("#menu1").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -124,7 +125,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem2==0){$("#menu2").css({visibility:"hidden"});
+					if(mem2==0){$("#menu2").animate({bottom:'-320px'});
+						$("#menu2").css({bottom:'0px'});
             		if(mem1==1){$("#menu1").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -142,7 +144,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem3==0){$("#menu3").css({visibility:"hidden"});
+					if(mem3==0){$("#menu3").animate({bottom:'-320px'});
+						$("#menu3").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem1==1){$("#menu1").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -160,7 +163,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem4==0){$("#menu4").css({visibility:"hidden"});
+					if(mem4==0){$("#menu4").animate({bottom:'-320px'});
+						$("#menu4").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem1==1){$("#menu1").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -178,7 +182,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu5").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem5==0){$("#menu5").css({visibility:"hidden"});
+					if(mem5==0){$("#menu5").animate({bottom:'-320px'});
+						$("#menu5").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -196,7 +201,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu6").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem6==0){$("#menu6").css({visibility:"hidden"});
+					if(mem6==0){$("#menu6").animate({bottom:'-320px'});
+						$("#menu6").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -214,7 +220,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu7").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem7==0){$("#menu7").css({visibility:"hidden"});
+					if(mem7==0){$("#menu7").animate({bottom:'-320px'});
+						$("#menu7").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -232,7 +239,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu8").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem8==0){$("#menu8").css({visibility:"hidden"});
+					if(mem8==0){$("#menu8").animate({bottom:'-320px'});
+						$("#menu8").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
@@ -250,7 +258,8 @@ mem1=0;mem2=0;mem3=0;mem4=0;mem5=0;mem6=0;mem7=0;mem8=0;mem9=0;
 				   $(".menu").css({visibility:"hidden"});	
 					$("#menu9").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}},
 				function(){
-					if(mem9==0){$("#menu9").css({visibility:"hidden"});
+					if(mem9==0){$("#menu9").animate({bottom:'-320px'});
+						$("#menu9").css({bottom:'0px'});
             		if(mem2==1){$("#menu2").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem3==1){$("#menu3").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
             		else if(mem4==1){$("#menu4").css({visibility:"visible",bottom:'-320px'}).animate({bottom:'0px'});}
