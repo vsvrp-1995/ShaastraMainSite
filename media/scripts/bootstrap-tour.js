@@ -35,9 +35,14 @@
         }, options);
         this._steps = [];
         this.setCurrentStep();
-        $(document).on("click", ".popover .next", function(e) {
+        $(document).on("click", ".popover .popover-content", function(e) {
           e.preventDefault();
           return _this.next();
+        });
+         $(document).on("mouseleave", ".tab", function(e) {
+          e.preventDefault();
+          if(_this.next().next().next()== NULL){
+          return _this.next();}
         });
         $(document).on("click", ".popover .end", function(e) {
           e.preventDefault();
