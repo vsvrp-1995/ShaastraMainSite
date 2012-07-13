@@ -23,7 +23,7 @@
 (function() {
 
   (function($, window) {
-    var Tour, document;
+    var Tour, document,k;
     document = window.document;
     Tour = (function() {
 
@@ -38,11 +38,6 @@
         $(document).on("click", ".popover .popover-content", function(e) {
           e.preventDefault();
           return _this.next();
-        });
-         $(document).on("mouseleave", ".tab", function(e) {
-          e.preventDefault();
-          if(_this.next().next().next()== NULL){
-          return _this.next();}
         });
         $(document).on("click", ".popover .end", function(e) {
           e.preventDefault();
@@ -173,6 +168,8 @@
         step = this.getStep(this._current);
         return this.showStep(step.next);
       };
+      
+      
 
       Tour.prototype._showPopover = function(step, i) {
         var content, tip;
