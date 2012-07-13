@@ -39,6 +39,7 @@
           e.preventDefault();
           return _this.next();
         });
+        
         $(document).on("click", ".popover .end", function(e) {
           e.preventDefault();
           return _this.end();
