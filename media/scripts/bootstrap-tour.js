@@ -35,7 +35,7 @@
         }, options);
         this._steps = [];
         this.setCurrentStep();
-        $(document).on("click", ".popover .popover-content", function(e) {
+        $(document).on("click", ".popover .next", function(e) {
           e.preventDefault();
           return _this.next();
         });
@@ -163,6 +163,26 @@
         return this.setCurrentStep(step.next);
       };
 
+
+      Tour.prototype._showPopover = function(step, i) {
+        var content, tip;
+        content = "" + step.content + "<br /><p>";
+        if (step.end) {
+          content += "<a href='#' class='end'>End</a>";
+        } else {
+          content += "<a href='#" + step.next + "' class='next'>Next &raquo;</a>          <a href='#' class='pull-right end'>End tour</a></p>";
+        }
+        $(step.element).popover({
+          placement: step.placement,
+          trigger: "manual",
+          title: step.title,
+          content: content,
+          animation: step.animation
+        }).popover("show");
+        tip = $(step.element).data("popover").tip();
+        this._reposition(tip);
+        return this._scrollIntoView(tip);
+      };
       Tour.prototype.showNextStep = function() {
         var step;
         step = this.getStep(this._current);
