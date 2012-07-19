@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 <title>Shaastra</title>
 <script>
 	function getWindowHeight() {
@@ -33,7 +32,7 @@
 					contentElement.style.top = ((windowHeight / 2) - (contentHeight / 2)) + 'px';
 				}
 				else {
-					loadingElement.style.position = 'static';
+					contentElement.style.position = 'static';
 				}
 			}
 		}
@@ -45,6 +44,10 @@
 	window.onresize = function() {
 		setContent();
 		resetabs();
+	}
+	function preview_display()
+	{
+		document.getElementById("preview").style.visibility="visible";
 	}
 	function tab(num){
 		resetabs();
@@ -63,9 +66,6 @@
 		document.getElementById('menu9').style.visibility="hidden";
 	}
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="./media/scripts/hover.js">
-</script>
 <!--[if lte IE 8]>
 <link rel="stylesheet" type="text/css" href="./media/style/IEeventsstyle.css" />
 </noscript>
@@ -73,15 +73,21 @@
 <!--[if gt IE 8]>
 <link rel="stylesheet" type="text/css" href="./media/style/eventsstyle.css"  />
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="./media/style/eventsstyle.css"  />
-<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" />
+<link rel="stylesheet" type="text/css" href="media/style/eventsstyle.css"  />
 <link rel="stylesheet" type="text/css" href="media/style/style.css"  />
 <link rel="stylesheet" type="text/css" href="media/style/bootstrap.css"  />
 <link rel="stylesheet" type="text/css" href="media/style/prettify.css" />
 <link rel="stylesheet" type="text/css" href="media/style/bootstrap-responsive.css" />
+<link rel="stylesheet" type="text/css" href="media/style/scrolling.css" />
 <script type="text/javascript" src="media/scripts/jquery.cookie.js"></script>
 <script type="text/javascript" src="media/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="media/scripts/jquery-1.5.2-min.js"></script>
 <script src="media/scripts/bootstrap-tooltip.js"></script>
+<script src="media/scripts/scrolling.js"></script>
+<script src="media/scripts/jquery.jscrollpane.min.js"></script>
+<script src="media/scripts/jscrollPane.js"></script>
+<script src="media/scripts/jquery.mousewheel.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="media/scripts/bootstrap-popover.js"></script>
 <script src="media/scripts/bootstrap-alert.js"></script>
 <script src="media/scripts/prettify.js"></script> 
