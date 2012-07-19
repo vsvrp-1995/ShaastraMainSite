@@ -1,7 +1,8 @@
 #maincontent
 {
-	overflow-x:auto;
+	overflow-x:hidden;
 	overflow-y:scroll;
+	
 }
 .jspContainer
 {
@@ -64,7 +65,7 @@
 {
 	background-image:url('../images/scrollBar.png');
 	background-repeat:no-repeat;
-	background-position:-1px 0px;
+	background-position:5px 0px;
 	borders-top:solid 0.2mm grey;
 	borders-bottom:solid 0.2mm grey;
 	position: relative;
@@ -97,7 +98,6 @@
 .jspVerticalBar .jspArrowUp
 {
 	height: 16px;
-	background-image:url('../images/scrollUpArrow.png');
 	background-repeat:no-repeat;
 	background-position:2px 0px;
 	margin-bottom:-3px;
@@ -105,7 +105,6 @@
 .jspVerticalBar .jspArrowDown
 {
 	height: 16px;
-	background-image:url('../images/scrollDownArrow.png');
 	background-repeat:no-repeat;
 	background-position:2px 0px;
 }
